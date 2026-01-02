@@ -65,7 +65,7 @@ Las funcionalidades adicionales se decidirán de forma grupal.
 - [ ] Diseñar layout general (boceto o Figma).
 
 ### Desarrollo
-- [✓] Inicializar el proyecto.
+- [x] Inicializar el proyecto.
 - [ ] Configurar estilos base.
 - [ ] Crear layout general.
 - [ ] Implementar página de inicio.
