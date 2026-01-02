@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Memorial Web – Tota
 
-## Getting Started
+## 🌱 Motivo del proyecto
 
-First, run the development server:
+Este proyecto nace como una iniciativa colectiva para crear un **sitio web memorial** en honor a nuestro amigo Tota.  
+El objetivo principal es construir un espacio digital respetuoso, sobrio y duradero, donde podamos:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Recordar su vida, su historia y los momentos que compartimos.
+- Reunir fotografías, recuerdos y mensajes significativos.
+- Dejar un testimonio que pueda mantenerse en el tiempo.
+- Trabajar juntos, de forma colaborativa, tomando decisiones en grupo.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este no es un proyecto comercial ni técnico en su esencia, sino un homenaje construido con cuidado, respeto y cariño.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Objetivos del sitio
 
-## Learn More
+- Crear un memorial accesible desde cualquier lugar.
+- Mantener una estética personalizada y respetuosa.
+- Facilitar la colaboración entre quienes participamos del proyecto.
+- Permitir que el sitio crezca con el tiempo, si así lo decidimos.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧭 Alcance inicial
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+En esta primera etapa, el sitio incluirá:
 
-## Deploy on Vercel
+- Página de inicio con presentación y mensaje central.
+- Sección biográfica o línea de vida.
+- Galería de fotografías.
+- Sección de recuerdos o mensajes.
+- Información de contacto o créditos del proyecto.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Las funcionalidades adicionales se decidirán de forma grupal.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Tecnologías (propuesta inicial)
+
+> Estas decisiones pueden revisarse y modificarse entre todos.
+
+- **Frontend:** Next.js (React)
+- **Estilos:** Tailwind CSS
+- **Backend:** Por definir (solo si se requieren funciones dinámicas)
+- **Hosting:** Por definir
+- **Dominio:** Ya adquirido (tota.cl por Denis Miranda Jauregui)
+
+---
+
+## 📋 Lista de tareas iniciales
+
+### Organización y contenido
+- [ ] Definir el nombre final del sitio.
+- [ ] Definir el tono del memorial (más íntimo / más público).
+- [ ] Reunir textos base (biografía, descripciones, frases).
+- [ ] Seleccionar fotografías iniciales.
+- [ ] Definir quién puede aportar contenido.
+
+### Diseño
+- [ ] Definir paleta de colores.
+- [ ] Elegir tipografía principal.
+- [ ] Definir estructura de navegación.
+- [ ] Diseñar layout general (boceto o Figma).
+
+### Desarrollo
+- [✓] Inicializar el proyecto.
+- [ ] Configurar estilos base.
+- [ ] Crear layout general.
+- [ ] Implementar página de inicio.
+- [ ] Implementar secciones principales.
+- [ ] Optimizar versión móvil.
+
+### Publicación
+- [ ] Configurar dominio.
+- [ ] Definir hosting.
+- [ ] Revisión general de contenido.
+- [ ] Publicación del sitio.
+
+---
+
+## 🧩 Decisiones pendientes (a discutir en grupo)
+
+- ¿Habrá moderación de mensajes?
+- ¿Se permitirá que terceros dejen recuerdos?
+- ¿Qué nivel de detalle tendrá la biografía?
+- ¿Quién se encargará del mantenimiento a largo plazo?
+- ¿Se permitirá que el sitio evolucione con el tiempo?
+- ¿Incluirá sección de donaciones a la familia?
+
+Estas decisiones se tomarán de forma consensuada.
+
+---
+
+## 🤝 Forma de trabajo
+
+- Todas las decisiones importantes se discutirán en grupo.
+- Se prioriza el respeto y el consenso.
+- Los cambios significativos deben comentarse antes de integrarse.
+- No hay jerarquías técnicas: todas las opiniones importan.
+
+---
+
+## 💙 Nota final
+
+Este proyecto existe gracias a todos nosotros.  
+Cada aporte, por pequeño que parezca, ayuda a construir algo significativo y duradero.
+
+Gracias por ser parte de esto.
