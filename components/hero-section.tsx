@@ -7,21 +7,29 @@ export const HeroSection = () => {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background Image */}
+      {/* Background */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-linear-to-br from-primary/5 via-secondary/10 to-accent/5" />
-        <Image
-          src="/images/hero-background.jpeg"
-          alt="Hero Background"
-          fill
-          priority
-          className="w-full h-full object-cover opacity-20 blur-sm"
-        />
+        <div className="absolute inset-0 bg-linear-to-br from-primary/10 via-secondary/15 to-accent/5" />
+        <div className="absolute inset-0 bg-noise opacity-20" />
+        {/* Decorative shapes */}
+        <div className="absolute inset-0">
+          <div className="absolute left-8 top-24 h-50 w-50 rounded-full bg-primary/25 blur-xl animate-[spin_18s_linear_infinite]" />
+          <div className="absolute right-10 top-20 h-40 w-40 rotate-45 bg-secondary/25 blur-xl animate-[spin_22s_linear_infinite]" />
+          <div className="absolute left-16 bottom-24 h-14 w-14 bg-accent/25 blur-sm animate-[spin_20s_linear_infinite]" />
+          <div className="absolute left-1/2 top-12 h-8 w-8 rotate-45 bg-foreground/10 blur-sm animate-[spin_14s_linear_infinite]" />
+          <div className="absolute right-1/3 bottom-12 h-10 w-10 rounded-full bg-foreground/10 blur-sm animate-[spin_24s_linear_infinite]" />
+        </div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <div className="mb-8">
+      <div className="relative z-10 px-4 w-full">
+        <div className="max-w-4xl mx-auto">
+          <div className="relative text-center bg-card/80 border-9 border-foreground/20 shadow-[10px_10px_0px_rgba(0,0,0,0.15)] backdrop-blur-sm px-6 py-10 md:px-10 bg-[radial-gradient(circle_at_1px_1px,rgba(0,0,0,0.08)_1px,transparent_0)] bg-size-[12px_12px]">
+            <div className="absolute -top-3 left-6 h-3 w-8 bg-primary/60 shadow-[3px_3px_0px_rgba(0,0,0,0.15)]" />
+            <div className="absolute -top-3 right-6 h-3 w-8 bg-secondary/60 shadow-[3px_3px_0px_rgba(0,0,0,0.15)]" />
+            <div className="absolute -bottom-3 left-6 h-3 w-8 bg-accent/60 shadow-[3px_3px_0px_rgba(0,0,0,0.15)]" />
+            <div className="absolute -bottom-3 right-6 h-3 w-8 bg-primary/60 shadow-[3px_3px_0px_rgba(0,0,0,0.15)]" />
+            <div className="mb-8">
           <div className="flex items-center justify-center gap-8 mb-6">
             <div className="relative">
               <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-[#C5852B] shadow-2xl">
@@ -46,7 +54,7 @@ export const HeroSection = () => {
               </div>
             </div>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-balance">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-balance ">
             Gonzalo Cornejo (Tota)
           </h1>
 
@@ -67,6 +75,8 @@ export const HeroSection = () => {
             Este espacio está dedicado a honrar los recuerdos, la risa y el amor
             compartido. Una celebración de una vida que tocó a tantos corazones.
           </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
