@@ -59,7 +59,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-foreground/90 mb-6">
-            1997 - 2025
+            1998 - 2025
           </p>
 
           <div className="flex items-center justify-center gap-2 mb-8">
