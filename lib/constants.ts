@@ -1,0 +1,1 @@
+export const messagesEmail = "guetti.dev@gmail.com";

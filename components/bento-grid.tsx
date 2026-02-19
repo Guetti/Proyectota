@@ -29,7 +29,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
 }) => {
   return (
     <div
-      className={`grid grid-cols-2 md:grid-cols-${columns} ${gap} ${className}`}
+      className={`flex flex-col gap-4 md:grid md:grid-cols-${columns} ${gap} ${className}`}
       style={{
         gridAutoRows: `${rowHeight}px`,
       }}
@@ -41,7 +41,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
         return (
           <div
             key={item.id}
-            className="relative overflow-hidden rounded-2xl bg-card/80 border-6 border-primary/75 shadow-[8px_8px_0px_rgba(0,0,0,0.12)] transition-all duration-300 hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_rgba(0,0,0,0.15)] cursor-pointer group"
+            className="relative overflow-hidden rounded-2xl bg-card/80 border-6 border-primary/75 shadow-[8px_8px_0px_rgba(0,0,0,0.12)] transition-all duration-300 hover:-translate-x-1 hover:-translate-y-1 hover:shadow-[12px_12px_0px_rgba(0,0,0,0.15)] group aspect-square md:aspect-auto"
             style={{
               gridColumn: `span ${cols}`,
               gridRow: `span ${rows}`,

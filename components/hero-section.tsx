@@ -58,7 +58,7 @@ export const HeroSection = () => {
             Gonzalo Cornejo (Tota)
           </h1>
 
-          <p className="text-xl md:text-2xl text-foreground/90 mb-6">
+          <p className="text-sm md:text-xl text-foreground/90 mb-6 font-mono">
             1998 - 2025
           </p>
 

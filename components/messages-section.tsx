@@ -1,6 +1,7 @@
-import { Heart, MessageCircle } from "lucide-react";
-import { Card } from "./ui/card";
+import { messagesEmail } from "@/lib/constants";
 import { getMemories } from "@/lib/memories";
+import { Heart, Mail, MessageCircle } from "lucide-react";
+import { Card } from "./ui/card";
 
 export default async function MessagesSection() {
   const memories = getMemories();
@@ -58,6 +59,20 @@ export default async function MessagesSection() {
             </div>
           </Card>
         ))}
+      </div>
+
+      {/* Botón para enviar mensaje */}
+      <div className="mt-12 text-center">
+        <a
+          href={`mailto:${messagesEmail}?subject=Mensaje%20de%20recuerdo`}
+          className="inline-flex items-center gap-2 rounded-sm border-2 border-primary bg-primary px-6 py-3 font-bold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-lg"
+        >
+          <Mail className="h-5 w-5" />
+          Enviar un mensaje
+        </a>
+        <p className="mt-3 text-muted-foreground text-sm">
+          Comparte tu recuerdo o mensaje de cariño
+        </p>
       </div>
     </section>
   );
