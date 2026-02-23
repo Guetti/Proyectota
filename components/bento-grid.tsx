@@ -62,7 +62,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({
             )}
             {/* Content overlay */}
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-all duration-300 flex flex-col justify-end p-6">
-              <div className="space-y-2">
+              <div className="hidden space-y-2">
                 <h3 className="text-xl font-bold text-white drop-shadow-lg">
                   {item.title}
                 </h3>
