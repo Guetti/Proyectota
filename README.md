@@ -30,6 +30,7 @@ En esta primera etapa, el sitio incluirá:
 - Página de inicio con presentación y mensaje central.
 - Sección biográfica o línea de vida.
 - Galería de fotografías.
+- Sección de capturas de pantalla (recortes de conversaciones).
 - Sección de recuerdos o mensajes.
 - Información de contacto o créditos del proyecto.
 
@@ -37,59 +38,96 @@ Las funcionalidades adicionales se decidirán de forma grupal.
 
 ---
 
-## 🛠️ Tecnologías (propuesta inicial)
-
-> Estas decisiones pueden revisarse y modificarse entre todos.
+## 🛠️ Tecnologías
 
 - **Frontend:** Next.js (React)
 - **Estilos:** Tailwind CSS
-- **Backend:** Por definir (solo si se requieren funciones dinámicas)
-- **Hosting:** Por definir
+- **Hosting:** Vercel
 - **Dominio:** Ya adquirido (tota.cl por Denis Miranda Jauregui)
 
 ---
 
-## 📋 Lista de tareas iniciales
+## 📋 Lista de tareas
 
 ### Organización y contenido
-- [ ] Definir el nombre final del sitio.
-- [ ] Definir el tono del memorial (más íntimo / más público).
+- [x] Definir el nombre final del sitio (tota.cl).
+- [x] Definir el tono del memorial (alegre)
 - [ ] Reunir textos base (biografía, descripciones, frases).
-- [ ] Seleccionar fotografías iniciales.
-- [ ] Definir quién puede aportar contenido.
+- [x] Seleccionar fotografías iniciales.
+- [x] Definir quién puede aportar contenido.
 
 ### Diseño
-- [ ] Definir paleta de colores.
-- [ ] Elegir tipografía principal.
-- [ ] Definir estructura de navegación.
-- [ ] Diseñar layout general (boceto o Figma).
+- [x] Definir paleta de colores.
+- [x] Elegir tipografía principal.
+- [x] Definir estructura de navegación.
+- [x] Diseñar layout general.
 
 ### Desarrollo
 - [x] Inicializar el proyecto.
-- [ ] Configurar estilos base.
-- [ ] Crear layout general.
-- [ ] Implementar página de inicio.
-- [ ] Implementar secciones principales.
+- [x] Configurar estilos base.
+- [x] Crear layout general.
+- [x] Implementar página de inicio (Hero Section).
+- [x] Implementar galería de fotos (Media Section).
+- [x] Implementar sección de capturas de pantalla (Screenshots Section).
+- [x] Implementar sección de mensajes (Messages Section).
 - [ ] Optimizar versión móvil.
 
 ### Publicación
-- [ ] Configurar dominio.
-- [ ] Definir hosting.
-- [ ] Revisión general de contenido.
-- [ ] Publicación del sitio.
+- [x] Configurar dominio.
+- [x] Definir hosting.
+- [x] Revisión general de contenido.
+- [x] Publicación del sitio.
+
 
 ---
 
-## 🧩 Decisiones pendientes (a discutir en grupo)
+## 📝 Cómo agregar contenido
 
-- ¿Habrá moderación de mensajes?
-- ¿Se permitirá que terceros dejen recuerdos?
-- ¿Qué nivel de detalle tendrá la biografía?
-- ¿Quién se encargará del mantenimiento a largo plazo?
-- ¿Se permitirá que el sitio evolucione con el tiempo?
-- ¿Incluirá sección de donaciones a la familia?
+### Agregar mensajes
 
-Estas decisiones se tomarán de forma consensuada.
+Edita el archivo `content/messages.ts` y agrega un nuevo objeto al array:
+
+```typescript
+{
+  id: "3", // ID único, incrementar según el último
+  author: "Nombre Completo",
+  date: "Febrero 2026",
+  message: "Tu mensaje de recuerdo aquí...",
+},
+```
+
+### Agregar imágenes a la galería
+
+1. Coloca la imagen en `public/images/media/` (ejemplo: `6.png`)
+2. Edita el archivo `content/images.ts` y agrega:
+
+```typescript
+{
+  id: "6", // ID único
+  title: "Título de la imagen",
+  message: "Descripción breve de la imagen",
+  src: "/images/media/6.png",
+  cols: 1, // Columnas que ocupa (1-3)
+  rows: 2, // Filas que ocupa (1-5)
+},
+```
+
+### Agregar capturas de pantalla
+
+1. Coloca la captura en `public/screenshots/` (ejemplo: `3.png`)
+2. Edita el archivo `content/screenshots.ts` y agrega:
+
+```typescript
+{
+  id: "3", // ID único
+  image: "/screenshots/3.png",
+  sender: "Nombre de quien envía",
+  description: "Contexto o descripción de la captura",
+  date: "Febrero 2025", // Opcional
+},
+```
+
+> **Nota:** Las capturas se pueden ampliar haciendo clic en ellas para leer mejor el texto.
 
 ---
 

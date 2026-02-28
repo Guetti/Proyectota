@@ -1,10 +1,9 @@
+import { messages } from "@/content/messages";
 import { messagesEmail } from "@/lib/constants";
-import { getMemories } from "@/lib/memories";
 import { Heart, Mail, MessageCircle } from "lucide-react";
 import { Card } from "./ui/card";
 
-export default async function MessagesSection() {
-  const memories = getMemories();
+export default function MessagesSection() {
   return (
     <section className="container mx-auto px-4 py-16 md:py-24">
       <div className="mb-12 text-center">
@@ -24,9 +23,9 @@ export default async function MessagesSection() {
       </div>
 
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
-        {memories.map((memory, index) => (
+        {messages.map((message) => (
           <Card
-            key={index}
+            key={message.id}
             className="group relative overflow-hidden border-2 rounded-none border-border bg-card p-6 transition-all hover:border-accent hover:shadow-lg"
           >
             {/* Decoración pixel art */}
@@ -35,9 +34,9 @@ export default async function MessagesSection() {
             <div className="mb-4 flex items-start justify-between gap-4">
               <div className="flex-1">
                 <h3 className="mb-1 font-bold text-foreground text-lg">
-                  {memory.author}
+                  {message.author}
                 </h3>
-                <p className="text-muted-foreground text-sm">{memory.date}</p>
+                <p className="text-muted-foreground text-sm">{message.date}</p>
               </div>
               <Heart className="h-5 w-5 text-accent transition-transform group-hover:scale-110" />
             </div>
@@ -46,7 +45,7 @@ export default async function MessagesSection() {
               <span className="absolute -top-4 -left-1 font-serif text-3xl text-primary/30">
                 &quot;
               </span>
-              <p className="relative italic">{memory.message}</p>
+              <p className="relative italic">{message.message}</p>
               <span className="absolute -bottom-4 -right-1 font-serif text-3xl text-primary/30">
                 &quot;
               </span>

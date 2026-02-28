@@ -1,6 +1,8 @@
+import { Footer } from "@/components/footer";
 import { HeroSection } from "@/components/hero-section";
 import MediaSection from "@/components/media-section";
 import MessagesSection from "@/components/messages-section";
+import ScreenshotsSection from "@/components/screenshots-section";
 import { Separator } from "@/components/separator";
 
 export default function Home() {
@@ -8,12 +10,13 @@ export default function Home() {
     <main className="min-h-screen">
       <HeroSection />
       <Separator />
-      {/*       <AboutSection />
-      <Separator /> */}
       <MediaSection />
+      <Separator />
+      <ScreenshotsSection />
       <Separator />
       <MessagesSection />
       <Separator />
+      <Footer />
     </main>
   );
 }
