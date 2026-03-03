@@ -21,4 +21,11 @@ export const screenshots: Screenshot[] = [
     description: "Poco antes del momento en que tuvimos que despedirnos, me escribió esto. Me hizo sentir que nuestra amistad era algo especial, podía sentir su emoción en sus palabras.",
     date: "Febrero 2025",
   },
+  {
+    id: "3",
+    image: "/screenshots/3.png",
+    sender: "Bárbara S",
+    description: "Con el Totita siempre hablábamos de lo maravilloso que sería reencarnar en otras especies, sin preocupaciones, solo existir y ser libres. Espero que en alguna vida nos podamos volver a encontrar y ser amiguitos nuevamente.",
+    date: "Febrero 2025",
+  }
 ];
