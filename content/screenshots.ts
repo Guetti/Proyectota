@@ -49,4 +49,11 @@ export const screenshots: Screenshot[] = [
     description: "Cuando me dijiste de un anime que jamas vi, ahora lo vere.",
     date: "Febrero 2026",
   },
+  {
+    id: "7",
+    image: "/screenshots/7.jpeg",
+    sender: "Angela López Muñoz",
+    description: "Esto te representa mucho, en tu peor momento decidimos enviarte mensajitos de amor y buenas energías y tú decidiste compartirlos con tus compañeros de piso 🤍",
+    date: "Febrero 2026",
+  },
 ];

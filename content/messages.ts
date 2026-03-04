@@ -38,5 +38,11 @@ export const messages: Message[] = [
     author: "Demian Fernando Geraldo Órdenes",
     date: "Febrero 2026",
     message: "Para Gonzalo, nuestro Tota, Kabutota, Totita. Hay personas que llegan al mundo para iluminarlo sin siquiera darse cuenta. Tú eras así, Tota.Siempre iluminando nuestras vidas, aunque quizás jamás me creíste cuando te lo decía. Tus abrazos…esos abrazos tan apretados que parecían querer sostener el mundo entero. Eran refugio, eran de verdad. No sé si sabías lo que venía, no sé si en algún rincón de tu corazón lo intuías. Pero de cualquier modo, quiero que donde estés sepas algo que es eterno: te querré siempre. Dicen que un hombre sólo muere cuando es olvidado. Y tú, Tota, tocaste nuestros corazones con una suavidad imposible de borrar. Sigues vivo en cada risa que nos regalaste, en cada recuerdo que nos aprieta el pecho, en cada historia que repetimos con lágrimas y sonrisa al mismo tiempo. Gracias por tu luz. Gracias por tu ternura. Gracias por haber sido tú. Nunca serás olvidado. Siempre serás abrazo."
+  },
+  {
+    id: "6",
+    author: "Angela López Muñoz",
+    date: "Febrero 2026",
+    message: "Gonchi, Totita, primito querido 🤍 Qué lindo ha sido leer y conocer a toda la gente que te quiere. Algo que me da paz es saber que en vida nunca quedaron palabras pendientes, todos te demostramos y te dijimos cuánto te amábamos. Muchas veces te decía lo afortunado que eras por tener tantos amigos apañadores, tanta gente que te quería y tú me respondías que nosotras éramos las antisociales. “Araya tenías que ser” jaja Siempre fuiste el sociable, el regalón, el que hacía familia en todas partes. Te amamos infinito, primo. Nos duele el alma no tenerte aquí con nosotros, pero recordarte con todo lo que fuiste y todo lo que dejaste en cada persona también nos abraza y nos consuela. Quiero creer que existe algo más después de esta vida para poder volver a sentir uno de tus abrazos apretados, aunque sea una vez más. Besitos al cielo 🤍"
   }
 ];
