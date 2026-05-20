@@ -13,8 +13,66 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "En Memoria de Gonzalo Cornejo (Tota)",
-  description: "Una página para honrar y recordar a nuestro amigo Gonzalo Cornejo.",
+  metadataBase: new URL("https://www.tota.cl"),
+  title: {
+    default: "En Memoria de Gonzalo Cornejo (Tota)",
+    template: "%s | Memorial Tota",
+  },
+  description:
+    "Un espacio para recordar y honrar la memoria de nuestro amigo Gonzalo Cornejo (Tota). Mensajes, fotos y recuerdos de quienes lo quisieron.",
+  keywords: [
+    "Gonzalo Cornejo",
+    "Tota",
+    "memorial",
+    "en memoria",
+    "recuerdos",
+    "homenaje",
+  ],
+  authors: [{ name: "Guetti" }],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    url: "https://www.tota.cl",
+    locale: "es_CL",
+    title: "En Memoria de Gonzalo Cornejo (Tota)",
+    description:
+      "Un espacio para recordar y honrar la memoria de nuestro amigo Gonzalo Cornejo (Tota). Mensajes, fotos y recuerdos de quienes lo quisieron.",
+    siteName: "Memorial Tota",
+    images: [
+      {
+        url: "/images/portrait.jpeg",
+        width: 800,
+        height: 800,
+        alt: "Gonzalo Cornejo (Tota)",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "En Memoria de Gonzalo Cornejo (Tota)",
+    description:
+      "Un espacio para recordar y honrar la memoria de nuestro amigo Gonzalo Cornejo (Tota).",
+    images: ["/images/portrait.jpeg"],
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  url: "https://www.tota.cl",
+  name: "En Memoria de Gonzalo Cornejo (Tota)",
+  description:
+    "Un espacio para recordar y honrar la memoria de nuestro amigo Gonzalo Cornejo (Tota).",
+  inLanguage: "es",
+  about: {
+    "@type": "Person",
+    name: "Gonzalo Cornejo",
+    alternateName: "Tota",
+    image: "https://www.tota.cl/images/portrait.jpeg",
+  },
 };
 
 export default function RootLayout({
@@ -27,6 +85,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
       </body>
     </html>

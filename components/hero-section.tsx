@@ -35,10 +35,11 @@ export const HeroSection = () => {
               <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-[#C5852B] shadow-2xl">
                 <Image
                   src="/images/portrait.jpeg"
-                  alt="Portrait"
+                  alt="Gonzalo Cornejo (Tota)"
                   width={192}
                   height={192}
                   className="w-full h-full object-cover"
+                  priority
                 />
               </div>
               <div className="absolute -bottom-2 -right-2 z-20">
