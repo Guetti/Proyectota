@@ -56,4 +56,11 @@ export const screenshots: Screenshot[] = [
     description: "Esto te representa mucho, en tu peor momento decidimos enviarte mensajitos de amor y buenas energías y tú decidiste compartirlos con tus compañeros de piso 🤍",
     date: "Febrero 2026",
   },
+  {
+    id: "8",
+    image: "/screenshots/8.jpg",
+    sender: "Andrea Ortego",
+    description: "Totita, hoy es un mes más de tu partida. Si bien, que te hayas ido significó que pudiera conocer aún más de ti -gracias a tu familia-, me hubiese gustado tener más tiempo para conocerlo desde ti... Más tiempo con tus abrazos, con tus memes, con tu presencia en general. Entiendo que es mi egoísmo, entiendo que era tu dolor, y que hiciste el mayor de tus esfuerzos por regalarnos más tiempo. Sólo que entender no resta mi necesidad y mi añoranza. \nAhora no puedo leer Femboy ni Tomboy sin pensarte, lo cual me da entre pena y risa 🤨",
+    date: "Septiembre 2026",
+  }
 ];
