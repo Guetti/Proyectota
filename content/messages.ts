@@ -47,13 +47,13 @@ export const messages: Message[] = [
   },
   {
     id: "7",
-    author: "Roxana Araya",
+    author: "Roxana Araya (Mamá)",
     date: "Julio 2026",
     "message": "*El Remolino y la Mariposa* \n\n Ciertamente, en los días de verano era ideal refrescarse junto al Remolino. Sus grandes aspas daban sombra y, a la vez, convertían la poca brisa en un viento fresco. Aunque Remolino tenía cuidado de no moverlas tan rápido para que el fuerte viento no se llevara a Mariposa, tenían largas charlas y risas por doquier. Remolino era muy travieso: cuando Mariposa dormía, él movía con fuerza sus aspas y de un giro la hacía caer... Eso no molestaba a Mariposa, ¡todo era divertido entre ellos!El sol de la mañana de ese verano era muy fuerte. El dueño de la granja notó el poco movimiento de Remolino y cambió su ritmo a uno más fuerte. Fue tanto el impulso que Mariposa salió volando y se dañó una de sus alitas... Remolino, preocupado por Mariposa, le gritaba desde lo alto:—¡¿Cómo estás?!Ella, como pudo, subió hasta su lado, pero Remolino no podía controlar su velocidad.—Tendré que irme —dijo Mariposa—. Descansaré cerca de las flores.—¡No! —dijo Remolino—. ¡Quiero tu compañía!Remolino apretaba con fuerza sus aspas para que no giraran tan rápido y fuerte; trató de girar en contra del viento, pero se lastimaba. Poco a poco se fue cansando, pues el viento era más poderoso e incluso fue rompiendo sus aspas... Mariposa le dijo:—¡No sigas, Remolino! ¡No te lastimes más! Iré a los jardines de flores y los arbustos me darán sombra y una brisa suave.—¡Me rompería con tal de que te quedaras! —dijo Remolino.—Lo sé —dijo Mariposa—. Solo te pido que sigan girando tus aspas; tienen un sonido maravilloso, parece que silbaras música.—¡Hasta pronto, Remolino! ¡Cuídate!—¡Cuida esa alita rota, Mariposa... \n\n Con amor... Mamá"
   },
   {
     id: "8",
-    author: "Tía de Gonzalo",
+    author: "Roxana Araya (Mamá)",
     date: "Septiembre 2026",
     message: 'Hoy me sentí más extraña que otros días, me di cuenta con el pasar de los meses que ya no tengo ese nudo en mi estomago, esa sensación de miedo, de preocupación, esos segundo antes de abrir la puerta de nuestra casa y rogarle a Dios que estés bien, con aquel temor latente de aquella decision ya en tu mente.  y al abri la puerta y sentir esa alegría enorme al verte en el pc, jugando con tus amigos en linea, y te parabas y corrias a saludarme "Hola mamita, te amo" y en tu mano una tasa lista para prepararte un tecito, conversabamos un rato de nuestro dia, me preparaba mi café, y reiamos por lo que fuese...al rato me iba a mi habitación y se escuchaba tu hermosa voz grave "Volví Cabros".  Lo extraño de todo es que ahora estas descansando en paz en una paz eterna...'
   }
